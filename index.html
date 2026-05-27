@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix 2.0</title>
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__logo">Netflix 2.0</div>
+
+        <button class="header__hamburger" aria-label="Otwórz menu">☰</button>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a href="#" class="header__link">Główna</a></li>
+                <li class="header__item"><a href="#" class="header__link">Seriale</a></li>
+                <li class="header__item"><a href="#" class="header__link">Filmy</a></li>
+            </ul>
+
+            <p class="header__favorites">
+                ❤️ Ulubione: <span class="header__favorites-count">0</span>
+            </p>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="filters">
+            <button class="filters__btn filters__btn--active" data-category="Wszystkie">Wszystkie</button>
+            <button class="filters__btn" data-category="Sci-Fi">Sci-Fi</button>
+            <button class="filters__btn" data-category="Akcja">Akcja</button>
+            <button class="filters__btn" data-category="Komedia">Komedia</button>
+        </section>
+
+        <section class="movies-grid" id="movies-grid">
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Autor: Franciszek Rubinowicz &copy; 2026</p>
+    </footer>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
