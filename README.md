@@ -8,6 +8,8 @@ Netflix 2.0 to nowoczesna, responsywna aplikacja typu One-Page imitująca platfo
 * **Filtrowanie w czasie rzeczywistym:** Wygodne przyciski kategorii (*Wszystkie, Sci-Fi, Akcja, Komedia*), które błyskawicznie filtrują wyświetlane kafelki bez przeładowywania strony.
 * **System Ulubionych (LocalStorage):** Możliwość dodawania i usuwania filmów z listy ulubionych. Wybór użytkownika jest zapisywany w pamięci przeglądarki (`localStorage`), dzięki czemu licznik i stan przycisków nie zerują się po odświeżeniu strony.
 
+## Demo:
+* https://franek007.github.io/kino/
 ---
 
 ## Autor
